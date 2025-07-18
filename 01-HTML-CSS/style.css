@@ -48,19 +48,60 @@ header .main-header img{
 }
 
 header .main-header h1{
+  font-size: 71px;
   font-family: "Recursive", sans-serif;
   font-weight: 400;
-  font-size: 71px;
   font-style: italic;
-  color: #FF7575;
   font-variation-settings:
   "slnt" 0,
   "CASL" 0,
   "CRSV" 1,
   "MONO" 0;
   margin-bottom: 12px;
+  color: #FF7575;
 }
 
 header .main-header p{
   font-size: 28px;
 }
+
+/* Category Listing */
+main .category-listing{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding: 20px 150px;
+  border-width: 2px 0 0 0;
+  border-style: solid;
+  border-color: #4D4D4D;
+}
+
+main .category-listing .category-button{
+  display: flex;
+  gap: 20px;
+}
+
+main .category-listing .categories ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  list-style: none;
+}
+
+main .category-listing .categories ul li{
+  font-size: 24px;
+  font-family: "Recursive", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-variation-settings:
+  "slnt" 0,
+  "CASL" 0,
+  "CRSV" 1,
+  "MONO" 0;
+  color: #909090;
+}
+
