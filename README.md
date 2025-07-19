@@ -4,6 +4,7 @@
 <ul>
   <li>html structure improvements</li>
   <li>flexbox/grid improvements</li>
+  <li>practice</li>
 </ul>
 
 <h4>Cons:</h4>
