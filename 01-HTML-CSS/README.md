@@ -13,4 +13,4 @@
 </ul>
 
 <h2>Source: <a href="https://www.figma.com/design/nh0V05z3NB87ue9v5PcO3R/writings.dev?node-id=0-1&p=f&t=UrSqBKU2S3vFldDD-0">writings.dev</a></h2>
-<img src="01-HTML-CSS/Home-Page.png" alt="mockup-image" width="40%" height="auto">
+<img src="Home-Page.png" alt="mockup-image" width="40%" height="auto">
