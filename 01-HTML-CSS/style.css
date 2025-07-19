@@ -105,3 +105,84 @@ main .category-listing .categories ul li{
   color: #909090;
 }
 
+/* Article Listing */
+main .article-listing{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  row-gap: 35px;
+  margin-top: 90px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+main .article-listing .card{
+  background-color: #FFFFFF;
+  width: 310px;
+  padding: 22px;
+  border-radius: 22px;
+}
+
+main .article-listing .card img{
+  width: 100%;
+  height: auto;
+}
+
+main .article-listing .card h4,
+main .article-listing .card p,
+main .article-listing .card p span{
+  color: #0F1217;
+}
+
+main .article-listing .card h4{
+  font-size: 18px;
+  font-weight: 600;
+  font-style: semi-bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+main .article-listing .card p{
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main .article-listing .card p.article-date{
+  margin-top: 15px;
+}
+
+main .article-listing .card p.article-date span{
+  margin: 0 10px;
+}
+
+/* Pagination */
+main .pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+}
+main .pagination button{
+  background-color: transparent;
+  color: #909090;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Recursive", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-variation-settings:
+  "slnt" 0,
+  "CASL" 0,
+  "CRSV" 1,
+  "MONO" 0;
+}
+
+main .pagination button:hover{
+  border-width: 2px 0 0 0;
+  border-style: solid;
+  border-color: #FF7575;
+  color: #FF7575;
+}
